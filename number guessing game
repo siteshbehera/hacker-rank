@@ -1,0 +1,12 @@
+num = int(input("guess the number  "))
+itr = 0
+while ((num != 9) and (itr < 3)):
+
+    itr +=1
+    if (itr < 3):
+        num= int(input('Guess again '))
+    else:
+        print ('you failed, try again !!')
+
+if (num == 9):
+    print ('you win !!')
