@@ -1,0 +1,13 @@
+The original list is : ['Gfg', 'is', 'best', 'for', 'Geeks']
+List after performing character swaps : ['efg', 'is', 'bGst', 'for', 'eGGks']
+
+
+Ans:
+
+test_list = ['Gfg', 'is', 'best', 'for', 'Geeks']
+
+print(test_list)
+
+list2= [sub.replace('G','-').replace('e','G').replace('-','e') for sub in test_list]
+
+print(list2)
